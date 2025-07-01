@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UE6iPPMibALi2tEuQU2Z4wBXPdbeVQj8Wen/6/QI/gny/5qGzTh/MigWlZ5It5buy/srzbU9Jp4fIafIKYrDYg==",
+  "dgSpecHash": "1xgIoGmrvL8=",
   "success": true,
-  "projectFilePath": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\HNI-TPmoyennes.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/ldcnh/repos/other-exercises/HNI-TPmoyennes/HNI-TPmoyennes.csproj",
+  "expectedPackageFiles": [
+    "/home/ldcnh/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/ldcnh/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/ldcnh/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

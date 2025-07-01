@@ -8,26 +8,25 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\snico\\.nuget\\packages\\": {}
+    "/home/ldcnh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\HNI-TPmoyennes.csproj",
+      "projectUniqueName": "/home/ldcnh/repos/other-exercises/HNI-TPmoyennes/HNI-TPmoyennes.csproj",
       "projectName": "HNI-TPmoyennes",
-      "projectPath": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\HNI-TPmoyennes.csproj",
-      "packagesPath": "C:\\Users\\snico\\.nuget\\packages\\",
-      "outputPath": "D:\\Boulot\\workspace\\HNI-TPmoyennes\\obj\\",
+      "projectPath": "/home/ldcnh/repos/other-exercises/HNI-TPmoyennes/HNI-TPmoyennes.csproj",
+      "packagesPath": "/home/ldcnh/.nuget/packages/",
+      "outputPath": "/home/ldcnh/repos/other-exercises/HNI-TPmoyennes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\snico\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/ldcnh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,7 +39,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -56,12 +61,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.107/RuntimeIdentifierGraph.json"
       }
     }
   }
